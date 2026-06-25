@@ -15,8 +15,8 @@ const int backSpeed = 100; // make reversing slower
 
 
 
-const char* WIFI_SSID = "SKYC3QAM";  
-const char* WIFI_PASS = "dhzabEuhDshH";  
+const char* WIFI_SSID = "WIFI NAME HERE";  
+const char* WIFI_PASS = "WIFI PASSWORD HERE";  
 
 WiFiUDP udp;
 unsigned int localPort = 9999; 
