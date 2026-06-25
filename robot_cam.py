@@ -2,7 +2,7 @@ import cv2
 
 # 1. Define the DroidCam stream endpoint (include the crucial /video suffix)
 # Replace this with the exact IP address currently on your phone's screen
-droidcam_url = "http://192.168.0.12:4747/video"
+droidcam_url = "DROIDCAM IP"
 
 # 2. Connect OpenCV to the phone's network stream
 print("Connecting to DroidCam stream...")
