@@ -13,8 +13,8 @@ const int driveSpeed = 150; // Value between 0 and 255
 
 //consider having a drive speed and a turn speed. turn speed should be lower to allow for more fine angles to be reached. 
 
-const char* WIFI_SSID = "SKYC3QAM";  
-const char* WIFI_PASS = "dhzabEuhDshH";  
+const char* WIFI_SSID = "WIFI NAME HERE";  
+const char* WIFI_PASS = "WIFI PASSWORD HERE";  
 
 WiFiUDP udp;
 unsigned int localPort = 9999; 
