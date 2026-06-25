@@ -12,6 +12,11 @@ This project implements a **Decentralized Control Architecture** to maximize com
 * **The Vision Node (Honor 10 Lite):** Operates as a hardware-accelerated IP streaming node, capturing and broadcasting live video frames over a high-bandwidth network.
 * **The Host Node (Laptop Controller):** Acts as the central intelligence hub. It handles the video decompression, manages the graphical user interface, and captures continuous keyboard matrix inputs without blocking network pathways.
 
+<p align="center">
+  <img src="images/FPVcar2.gif" width="48%" alt="FPV Car Assembly" />
+  <img src="images/FPVdrive.gif" width="48%" alt="FPV Driving Demo" />
+</p>
+
 ---
 
 ## 🛠️ Hardware Specifications
