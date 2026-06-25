@@ -5,11 +5,11 @@ import socket
 # 1. HARDWARE NETWORK CONFIGURATION
 # ==========================================
 # Replace this with the exact IP your Arduino Nano ESP32 displays on startup:
-ROBOT_IP = "192.168.0.34"  
+ROBOT_IP = "INSERT ROBOT IP ADDRESS"  
 ROBOT_PORT = 9999
 
 # DroidCam stream URL from your Honor 10 Lite
-droidcam_url = "http://192.168.0.36:4747/video"
+droidcam_url = "INSERT DROIDCAM IP HERE"
 
 # Initialize a standard, blazing-fast UDP Network Socket
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
