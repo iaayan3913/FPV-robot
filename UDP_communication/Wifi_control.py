@@ -6,9 +6,9 @@ import threading
 import time
 
 # --- HARDWARE TARGET INTERFACES ---
-NANO_ESP32_IP = "192.168.0.34"  # Nano ESP32 IP Address
+NANO_ESP32_IP = "NANO IP HERE"  # Nano ESP32 IP Address
 UDP_PORT = 9999                #The control port matching the Nano ESP32 code [cite: 6]
-droidcam_url = "http://192.168.0.36:4747/video"
+droidcam_url = "DROIDCAM IP HERE"
 
 # Initialize high-speed UDP network socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
