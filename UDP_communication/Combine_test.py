@@ -4,12 +4,12 @@ import pygame
 import cv2
 
 # --- HARDWARE TARGET INTERFACES ---
-NANO_ESP32_IP = "192.168.0.34"  # this is the nanos ip address when connected to the wifi 
+NANO_ESP32_IP = "INSERT IP ADDRESS HERE"  # this is the nanos ip address when connected to the wifi 
 UDP_PORT = 9999                 # The control port matching the Nano ESP32 code
 
 # Initialize high-speed UDP network socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-droidcam_url = "http://192.168.0.36:4747/video"
+droidcam_url = "INSERT DROIDCAM IP HERE"
 
 # Initialize Pygame window to capture keyboard vectors
 pygame.init()
