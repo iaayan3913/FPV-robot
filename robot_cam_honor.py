@@ -2,7 +2,7 @@ import cv2
 
 # DroidCam OBS uses a dimension-mapped URL block when serving raw browser links.
 # Let's target the standard 640x480 frame box directly:
-droidcam_url = "http://192.168.0.36:4747/video"
+droidcam_url = "DROIDCAM URL HERE"
 
 # 2. Connect OpenCV to the phone's network stream
 print("Connecting to DroidCam stream...")
