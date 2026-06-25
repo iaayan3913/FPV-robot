@@ -3,7 +3,7 @@ import sys
 import pygame
 
 # --- HARDWARE TARGET INTERFACES ---
-NANO_ESP32_IP = "192.168.0.34"  # this is the nanos ip address when connected to the wifi 
+NANO_ESP32_IP = "ADD ARDUINO IP HERE"  # this is the nanos ip address when connected to the wifi 
 UDP_PORT = 9999                 # The control port matching the Nano ESP32 code
 
 # Initialize high-speed UDP network socket
