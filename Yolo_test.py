@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt") 
 
 # 2. Target your Honor 10 Lite DroidCam stream
-droidcam_url = "http://192.168.0.36:4747/video"
+droidcam_url = ""
 cap = cv2.VideoCapture(droidcam_url)
 
 while cap.isOpened():
