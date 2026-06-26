@@ -11,7 +11,7 @@ model = YOLO("yolov8n.pt")
 #droidcam_url = "http://192.168.0.36:4747/video"
 
 # hotspot ip
-droidcam_url = "http://172.30.253.228:4747/video"
+droidcam_url = ""
 
 # Global variables for thread-safe memory sharing
 latest_frame = None
