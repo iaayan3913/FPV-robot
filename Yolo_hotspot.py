@@ -8,9 +8,9 @@ from ultralytics import YOLO
 
 # --- HARDWARE TARGET INTERFACES ---
 #NANO_ESP32_IP = "192.168.0.34"  # WIFI Nano ESP32 IP Address
-NANO_ESP32_IP = "172.30.253.236" #Hotspot Nano ESP32 IP Address
+NANO_ESP32_IP = "" #Hotspot Nano ESP32 IP Address
 UDP_PORT = 9999                 # The control port matching the Nano ESP32 code [cite: 6]
-droidcam_url = "http://172.30.253.228:4747/video"
+droidcam_url = ""
 
 # 1. Initialize the lightweight AI Object Detection Model
 print("Loading YOLOv8 Nano model...")
