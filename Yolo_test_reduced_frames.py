@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt") 
 
 # Target your phone's stream
-droidcam_url = "http://192.168.0.36:4747/video"
+droidcam_url = ""
 cap = cv2.VideoCapture(droidcam_url)
 
 # Optimize OpenCV internal buffering
